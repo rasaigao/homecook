@@ -3,4 +3,5 @@
     <string name="invalid_credentials"><b>invalid credentials:</b> please check your username or password</string>
     <string name="login_button_text">login</string>
     <string name="forgot_your_password"><u>forgot your password?</u></string>
+    <string name="account_exists_string"><u>already have an account? sign in here</u></string>
 </resources>

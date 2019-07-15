@@ -409,8 +409,10 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color google_red
 color hc_blue
 color hc_red
+color hc_white
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -749,8 +751,10 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id email_signup
 id end
 id end_padder
+id entry_container
 id expand_activities_button
 id expanded_menu
 id fill
@@ -794,6 +798,7 @@ id packed
 id parent
 id parentPanel
 id password_input
+id password_signup
 id percent
 id progress_circular
 id progress_horizontal
@@ -820,6 +825,9 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup_email
+id signup_flow_next
+id signup_google
 id spacer
 id split_action_bar
 id spread
@@ -890,7 +898,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout fragment_credentials
 layout fragment_sign_in
+layout fragment_sign_up
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -951,6 +961,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string account_exists_string
 string app_name
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text

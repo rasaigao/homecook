@@ -1,4 +1,4 @@
-package com.homecook.android.app.login.fragment;
+package com.homecook.android.app.ui.login;
 
 /**
  * @author rohansaigaonkar

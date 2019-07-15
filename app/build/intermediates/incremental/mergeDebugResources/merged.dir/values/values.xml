@@ -151,7 +151,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#8559A5</color>
+    <color name="colorAccent">#9F65F7</color>
     <color name="colorPrimary">#00BDAA</color>
     <color name="colorPrimaryDark">#009281</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
@@ -170,8 +170,10 @@
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <color name="hc_blue">#2E69A0</color>
+    <color name="google_red">#DB3236</color>
+    <color name="hc_blue">#7585FF</color>
     <color name="hc_red">#BB1542</color>
+    <color name="hc_white">#FFFFFF</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -391,6 +393,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="account_exists_string"><u>already have an account? sign in here</u></string>
     <string name="app_name">Homecook</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -419,7 +422,7 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAgbm5xObQQsgcoNKQx-QYRpbl6WWNq5do</string>
     <string name="google_storage_bucket" translatable="false">homecook-dade1.appspot.com</string>
     <string name="invalid_credentials"><b>invalid credentials:</b> please check your username or password</string>
-    <string name="login_button_text">Login</string>
+    <string name="login_button_text">login</string>
     <string name="project_id" translatable="false">homecook-dade1</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>

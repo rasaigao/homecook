@@ -1,4 +1,4 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.ui.login;
 
 import android.os.Bundle;
 

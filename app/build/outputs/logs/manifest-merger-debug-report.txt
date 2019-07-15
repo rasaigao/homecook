@@ -123,10 +123,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/roha
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.homecook.android.app.MainActivity
+activity#com.homecook.android.app.entry.MainActivity
 ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:12:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN

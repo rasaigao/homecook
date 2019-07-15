@@ -17,7 +17,6 @@
             android:layout_height="wrap_content"
             android:text="create a homecook account"
             android:textColor="@color/colorPrimary"
-            android:layout_marginBottom="48dp"
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="24sp"/>
@@ -28,12 +27,27 @@
             android:backgroundTint="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:layout_marginTop="48dp"
             android:hint="email"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="you will have to confirm this email"/>
+
+        <EditText
+            android:id="@+id/password_signup"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="48dp"
+            android:hint="password"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8 characters minimum"/>
 
         <Button
             android:id="@+id/signup_flow_next"
