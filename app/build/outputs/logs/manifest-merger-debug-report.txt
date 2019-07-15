@@ -1,0 +1,397 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/776edf4f38d26e384815442de988d17d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fa5715ab12cac4bb588f7b72c01faf42/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4e9e76959f26274febfa645649514def/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/b7b197e74c51320d74179568c19fa29f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/60178098d476312763a0043f8064e3c6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c2f1304da6e6d4afbeb0506057f7142b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/54c3eaff6152be0dec28225f55c9b59e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ca0c98c1d3117c59c361093d1a9c1441/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f067b8131c35d8a68eb3863fb68e46cd/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16107e70d40c80a565ccf3166dc57ef1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7983d32abc8be51968c9381aa878fc4b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ecc542f1909edd64d97b4a1357ec677c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c90525a3acc8e14cb6194c1e50e25dbb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6916a42cc9556a87c391812f132e4fa5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ffda4309d48d76f4a0f344f72e1859e5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/dd2ab11822d68d4660b9cd435cef7fb7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2a261cd0346b7f03b98d57f4dfffcf2a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8b20fb128f24770e53a5989578315d52/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/064d69d59de5270e650eddd2779acf9c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/39d028842bf02b94af1696a63eca32fb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a488b1cc96f9f9aa5bb30fd2f403d280/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f9694c959accf75ee75438a949a9cab1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9a4b35443d7177448c6ec721a83f3046/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/93a7f1bed9aacc6d912da4579114daab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f9497abf4f9eba7ed6fe98edb1b29f3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/bbbfe0522b6bc838d76b145267a072eb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4a8817d81e56b73dbe986c4d42b9a0fb/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/262974b05c88226dcc5b7e72b80dfc22/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a2691bc0a3a8c6fe823d888d4fe3644f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1f8022e4095652ae239d711fb3853983/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6569a2d8866789061289e00e5a9c3919/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/69e29177ff95cfbff4b222775f4d8470/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8e31346a0c450f0055c33c026bb0bff3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d4c1b846234d9b786918b6a1de2f5207/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5f9819122a66c0bbc8c9a7abd5dd51c6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16f9e4a9d549b44fdb75f6d8e0561c96/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1467721b1a2aa8107f36dcf2b4b38f28/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4c89d747f29f5f2d6042e51adfb080f9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4e9e76959f26274febfa645649514def/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4e9e76959f26274febfa645649514def/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/b7b197e74c51320d74179568c19fa29f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/b7b197e74c51320d74179568c19fa29f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/60178098d476312763a0043f8064e3c6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/60178098d476312763a0043f8064e3c6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c2f1304da6e6d4afbeb0506057f7142b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c2f1304da6e6d4afbeb0506057f7142b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/54c3eaff6152be0dec28225f55c9b59e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/54c3eaff6152be0dec28225f55c9b59e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ca0c98c1d3117c59c361093d1a9c1441/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ca0c98c1d3117c59c361093d1a9c1441/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f067b8131c35d8a68eb3863fb68e46cd/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f067b8131c35d8a68eb3863fb68e46cd/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16107e70d40c80a565ccf3166dc57ef1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16107e70d40c80a565ccf3166dc57ef1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7983d32abc8be51968c9381aa878fc4b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7983d32abc8be51968c9381aa878fc4b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ecc542f1909edd64d97b4a1357ec677c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ecc542f1909edd64d97b4a1357ec677c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4a8817d81e56b73dbe986c4d42b9a0fb/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4a8817d81e56b73dbe986c4d42b9a0fb/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/262974b05c88226dcc5b7e72b80dfc22/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/262974b05c88226dcc5b7e72b80dfc22/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4a8817d81e56b73dbe986c4d42b9a0fb/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.homecook.android.app.MainActivity
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/776edf4f38d26e384815442de988d17d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/776edf4f38d26e384815442de988d17d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fa5715ab12cac4bb588f7b72c01faf42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fa5715ab12cac4bb588f7b72c01faf42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4e9e76959f26274febfa645649514def/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4e9e76959f26274febfa645649514def/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/b7b197e74c51320d74179568c19fa29f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/b7b197e74c51320d74179568c19fa29f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/60178098d476312763a0043f8064e3c6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/60178098d476312763a0043f8064e3c6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c2f1304da6e6d4afbeb0506057f7142b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c2f1304da6e6d4afbeb0506057f7142b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/54c3eaff6152be0dec28225f55c9b59e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/54c3eaff6152be0dec28225f55c9b59e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ca0c98c1d3117c59c361093d1a9c1441/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ca0c98c1d3117c59c361093d1a9c1441/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f067b8131c35d8a68eb3863fb68e46cd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f067b8131c35d8a68eb3863fb68e46cd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16107e70d40c80a565ccf3166dc57ef1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16107e70d40c80a565ccf3166dc57ef1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7983d32abc8be51968c9381aa878fc4b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7983d32abc8be51968c9381aa878fc4b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ecc542f1909edd64d97b4a1357ec677c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ecc542f1909edd64d97b4a1357ec677c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c90525a3acc8e14cb6194c1e50e25dbb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c90525a3acc8e14cb6194c1e50e25dbb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6916a42cc9556a87c391812f132e4fa5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6916a42cc9556a87c391812f132e4fa5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ffda4309d48d76f4a0f344f72e1859e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ffda4309d48d76f4a0f344f72e1859e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/dd2ab11822d68d4660b9cd435cef7fb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/dd2ab11822d68d4660b9cd435cef7fb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2a261cd0346b7f03b98d57f4dfffcf2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2a261cd0346b7f03b98d57f4dfffcf2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8b20fb128f24770e53a5989578315d52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8b20fb128f24770e53a5989578315d52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/064d69d59de5270e650eddd2779acf9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/064d69d59de5270e650eddd2779acf9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/39d028842bf02b94af1696a63eca32fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/39d028842bf02b94af1696a63eca32fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a488b1cc96f9f9aa5bb30fd2f403d280/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a488b1cc96f9f9aa5bb30fd2f403d280/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f9694c959accf75ee75438a949a9cab1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f9694c959accf75ee75438a949a9cab1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9a4b35443d7177448c6ec721a83f3046/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9a4b35443d7177448c6ec721a83f3046/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/93a7f1bed9aacc6d912da4579114daab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/93a7f1bed9aacc6d912da4579114daab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f9497abf4f9eba7ed6fe98edb1b29f3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f9497abf4f9eba7ed6fe98edb1b29f3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/bbbfe0522b6bc838d76b145267a072eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/bbbfe0522b6bc838d76b145267a072eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4a8817d81e56b73dbe986c4d42b9a0fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4a8817d81e56b73dbe986c4d42b9a0fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/262974b05c88226dcc5b7e72b80dfc22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/262974b05c88226dcc5b7e72b80dfc22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a2691bc0a3a8c6fe823d888d4fe3644f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a2691bc0a3a8c6fe823d888d4fe3644f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1f8022e4095652ae239d711fb3853983/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1f8022e4095652ae239d711fb3853983/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6569a2d8866789061289e00e5a9c3919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6569a2d8866789061289e00e5a9c3919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/69e29177ff95cfbff4b222775f4d8470/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/69e29177ff95cfbff4b222775f4d8470/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8e31346a0c450f0055c33c026bb0bff3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8e31346a0c450f0055c33c026bb0bff3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d4c1b846234d9b786918b6a1de2f5207/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d4c1b846234d9b786918b6a1de2f5207/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5f9819122a66c0bbc8c9a7abd5dd51c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5f9819122a66c0bbc8c9a7abd5dd51c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16f9e4a9d549b44fdb75f6d8e0561c96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/16f9e4a9d549b44fdb75f6d8e0561c96/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1467721b1a2aa8107f36dcf2b4b38f28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1467721b1a2aa8107f36dcf2b4b38f28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4c89d747f29f5f2d6042e51adfb080f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/4c89d747f29f5f2d6042e51adfb080f9/AndroidManifest.xml:20:5-44
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cf4fb46f6e0f2724b1cb07fb6591b22b/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df857db318e3b13c4f543929fcdeb83d/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/877b8e2901317324dd15a3b429aee504/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f86bc5124e67f2c631bc530693019209/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9bde8498ff7421878dd892b8d326aea2/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c1b4d1e3211a053fb15145c81b6bb5d0/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/51e493c6266934671b6f62554c1e5efb/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2234954b7b7e8a9ea1d46df4bdb26036/AndroidManifest.xml:24:13-58

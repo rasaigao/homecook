@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:paddingTop="60dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="create a homecook account"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="48dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/email_signup"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:hint="email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="you will have to confirm this email"/>
+
+        <Button
+            android:id="@+id/signup_flow_next"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/hc_white"
+            android:textAllCaps="false"
+            android:text="next"/>
+    </LinearLayout>
+
+</LinearLayout>

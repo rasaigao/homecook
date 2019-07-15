@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "357909652284",
+    "firebase_url": "https://homecook-dade1.firebaseio.com",
+    "project_id": "homecook-dade1",
+    "storage_bucket": "homecook-dade1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357909652284:android:d72f5b8b74954097",
+        "android_client_info": {
+          "package_name": "com.homecook.android.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357909652284-aen65vhv20il4nme5f3jlgqnbc7p90kr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homecook.android.app",
+            "certificate_hash": "bb8c59692290ad097751acf84ec5f7c2b930d2a7"
+          }
+        },
+        {
+          "client_id": "357909652284-u8qbiad792fh8mmjlvd4u2ut1dqimbl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgbm5xObQQsgcoNKQx-QYRpbl6WWNq5do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357909652284-u8qbiad792fh8mmjlvd4u2ut1dqimbl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
