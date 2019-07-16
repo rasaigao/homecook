@@ -8,7 +8,6 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
 
-    <!-- Required permission for App measurement to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -25,13 +24,24 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.homecook.android.app.entry.MainActivity" >
+        <activity android:name="com.homecook.android.app.common.MainActivity" />
+        <activity android:name="com.homecook.android.app.entry.EntryActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="14cda500a3a77d438e50fa9e2914546d3fbbb8a6" />
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.homecook.android.app.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

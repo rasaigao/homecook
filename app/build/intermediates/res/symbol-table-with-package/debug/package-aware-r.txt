@@ -825,6 +825,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sign_in_account_exists
 id signup_email
 id signup_flow_next
 id signup_google
@@ -963,6 +964,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string account_exists_string
 string app_name
+string com_crashlytics_android_build_id
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title

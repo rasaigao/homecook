@@ -4,7 +4,7 @@
             "outputFile": "/Users/rohansaigaonkar/Documents/Homecook/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8b20fb128f24770e53a5989578315d52/res/values-v24/values-v24.xml",
+                    "source": "/Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/10947198ccc67286a9243d48933974d7/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/776edf4f38d26e384815442de988d17d/res/values-v24/values-v24.xml",
+                    "source": "/Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/667d0756852400485c626e809840b256/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
