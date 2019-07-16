@@ -395,7 +395,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="account_exists_string"><u>already have an account? sign in here</u></string>
     <string name="app_name">Homecook</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">79cd2d4d-a734-432d-ae82-3b41ced3e661</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">0de765f7-6484-4ccf-8a32-491318bcf127</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>

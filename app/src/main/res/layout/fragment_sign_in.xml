@@ -24,15 +24,15 @@
 
 
         <EditText
-            android:id="@+id/username_input"
+            android:id="@+id/email_signin"
             android:inputType="textEmailAddress"
             android:backgroundTint="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="username or email"/>
+            android:hint="email"/>
 
         <EditText
-            android:id="@+id/password_input"
+            android:id="@+id/password_signin"
             android:inputType="textPassword"
             android:backgroundTint="@color/colorPrimary"
             android:hint="password"

@@ -6,15 +6,13 @@ import android.os.Bundle;
 
 import com.homecook.android.app.R;
 
-public class MainActivity extends AppCompatActivity {
+public abstract class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_feed);
     }
 
-    private void onInfoClicked() {
-
-    }
+    public abstract void onInfoClicked();
 }

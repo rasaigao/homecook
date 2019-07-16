@@ -17,6 +17,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
+        <activity android:name=".feed.FeedActivity" />
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="14cda500a3a77d438e50fa9e2914546d3fbbb8a6" />

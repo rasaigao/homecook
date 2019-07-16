@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -21,13 +22,15 @@ public class SignInFragment extends Fragment implements SignInContract.View {
         /**
          * Callback for going to sign login
          */
-        void signIn();
+        void signIn(@NonNull String email, @NonNull String password);
 
         void forgotPassword();
     }
 
     private Callback callback;
     private SignInContract.Presenter presenter;
+    private EditText emailField;
+    private EditText passwordField;
 
     @Override
     public void onAttach(Context context) {
@@ -44,9 +47,10 @@ public class SignInFragment extends Fragment implements SignInContract.View {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_sign_in, container, false);
         presenter = new SignInPresenter(this);
+        emailField = view.findViewById(R.id.email_signin);
+        passwordField = view.findViewById(R.id.password_signin);
         Button loginButton = view.findViewById(R.id.login_button);
         TextView forgotPassword = view.findViewById(R.id.forgot_password);
-
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,7 +68,9 @@ public class SignInFragment extends Fragment implements SignInContract.View {
 
     @Override
     public void login() {
-        callback.signIn();
+        String email = emailField.getText().toString();
+        String password = passwordField.getText().toString();
+        callback.signIn(email, password);
     }
 
     @Override
