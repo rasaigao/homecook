@@ -803,6 +803,7 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id register_button
 id right
 id right_icon
 id right_side
@@ -827,7 +828,6 @@ id showHome
 id showTitle
 id sign_in_account_exists
 id signup_email
-id signup_flow_next
 id signup_google
 id spacer
 id split_action_bar
@@ -900,6 +900,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout fragment_credentials
+layout fragment_forgot_password
 layout fragment_sign_in
 layout fragment_sign_up
 layout notification_action

@@ -9,9 +9,13 @@ import com.homecook.android.app.common.MvpView;
 public interface SignInContract {
     public interface View extends MvpView<Presenter> {
         void login();
+
+        void forgotPassword();
     }
 
     public interface Presenter extends MvpPresenter {
         void onLoginPressed();
+
+        void onForgotPasswordPressed();
     }
 }

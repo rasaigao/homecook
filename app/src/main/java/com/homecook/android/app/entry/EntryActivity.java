@@ -70,6 +70,11 @@ public class EntryActivity extends MainActivity implements
         //todo: send password reset
     }
 
+    @Override
+    public void forgotPassword() {
+        navigateToScreen(new ForgotPasswordFragment());
+    }
+
     private void navigateToScreen(@NonNull Fragment fragment) {
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.entry_container, fragment);

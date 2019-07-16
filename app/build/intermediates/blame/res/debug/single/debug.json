@@ -468,6 +468,10 @@
         "source": "/Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/667d0756852400485c626e809840b256/res/drawable/abc_cab_background_top_material.xml"
     },
     {
+        "merged": "/Users/rohansaigaonkar/Documents/Homecook/app/build/intermediates/res/merged/debug/layout_fragment_forgot_password.xml.flat",
+        "source": "/Users/rohansaigaonkar/Documents/Homecook/app/src/main/res/layout/fragment_forgot_password.xml"
+    },
+    {
         "merged": "/Users/rohansaigaonkar/Documents/Homecook/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
         "source": "/Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/667d0756852400485c626e809840b256/res/layout/abc_action_mode_close_item_material.xml"
     },

@@ -21,4 +21,9 @@ public class SignInPresenter implements SignInContract.Presenter {
     public void onLoginPressed() {
         view.login();
     }
+
+    @Override
+    public void onForgotPasswordPressed() {
+        view.forgotPassword();
+    }
 }

@@ -81,7 +81,7 @@ public final class R {
         public static final int packed = 0x7f070067;
         public static final int parent = 0x7f070068;
         public static final int percent = 0x7f07006c;
-        public static final int right = 0x7f070070;
+        public static final int right = 0x7f070071;
         public static final int spread = 0x7f07008c;
         public static final int spread_inside = 0x7f07008d;
         public static final int start = 0x7f070092;

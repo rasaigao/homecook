@@ -26,38 +26,40 @@
             android:inputType="textEmailAddress"
             android:backgroundTint="@color/colorPrimary"
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
             android:hint="email"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="you will have to confirm this email"/>
+            android:text="you will have to confirm this email"
+            android:padding="3dp"/>
 
         <EditText
             android:id="@+id/password_signup"
             android:inputType="textPassword"
             android:backgroundTint="@color/colorPrimary"
             android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:layout_marginTop="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
             android:hint="password"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="8 characters minimum"/>
+            android:text="8 characters minimum"
+            android:padding="3dp"/>
 
         <Button
             android:id="@+id/register_button"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/colorPrimary"
             android:textColor="@color/hc_white"
             android:textAllCaps="false"
-            android:text="next"/>
+            android:text="sign up"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -42,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/invalid_creds"
+            android:padding="3dp"
             android:textColor="@color/hc_red"
             android:text="@string/invalid_credentials"
             />
@@ -49,7 +50,7 @@
         <Button
             android:id="@+id/login_button"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/colorPrimary"
             android:textColor="@color/hc_white"
@@ -63,6 +64,7 @@
         android:textStyle=""
         android:textColor="@color/hc_blue"
         android:layout_gravity="left"
+        android:padding="3dp"
         android:text="@string/forgot_your_password"/>
     </LinearLayout>
 
