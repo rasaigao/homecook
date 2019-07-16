@@ -50,7 +50,7 @@
             android:text="8 characters minimum"/>
 
         <Button
-            android:id="@+id/signup_flow_next"
+            android:id="@+id/register_button"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginTop="24dp"
