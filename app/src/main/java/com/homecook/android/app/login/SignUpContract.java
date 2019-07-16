@@ -14,6 +14,6 @@ public interface SignUpContract {
     }
 
     interface Presenter extends MvpPresenter {
-        void onSignUpPressed();
+        void onSignUpPressed(@NonNull String email, @NonNull String password);
     }
 }

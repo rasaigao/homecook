@@ -20,25 +20,51 @@
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="24sp"/>
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/first_name_signup"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/form_text_size"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="48dp"
+                android:hint="first name"/>
+            <EditText
+                android:id="@+id/last_name_signup"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/form_text_size"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="48dp"
+                android:hint="last name"/>
+        </LinearLayout>
         <EditText
             android:id="@+id/email_signup"
             android:inputType="textEmailAddress"
+            android:textSize="@dimen/form_text_size"
             android:backgroundTint="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="24dp"
             android:hint="email"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="you will have to confirm this email"
+            android:text="@string/confirm_text"
+            android:textSize="10sp"
             android:padding="3dp"/>
 
         <EditText
             android:id="@+id/password_signup"
             android:inputType="textPassword"
+            android:textSize="@dimen/form_text_size"
             android:backgroundTint="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +74,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="8 characters minimum"
+            android:textSize="10sp"
+            android:text="@string/min_chars"
             android:padding="3dp"/>
 
         <Button

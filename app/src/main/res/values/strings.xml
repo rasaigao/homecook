@@ -4,4 +4,7 @@
     <string name="login_button_text">login</string>
     <string name="forgot_your_password"><u>forgot your password?</u></string>
     <string name="account_exists_string"><u>already have an account? sign in here</u></string>
+    <string name="min_chars">8 characters minimum</string>
+    <string name="confirm_text">you will have to confirm this email</string>
+    <string name="user_profile_name">%1$s %2$s</string>
 </resources>

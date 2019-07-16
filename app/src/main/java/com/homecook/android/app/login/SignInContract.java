@@ -1,5 +1,7 @@
 package com.homecook.android.app.login;
 
+import androidx.annotation.NonNull;
+
 import com.homecook.android.app.common.MvpPresenter;
 import com.homecook.android.app.common.MvpView;
 
@@ -11,10 +13,12 @@ public interface SignInContract {
         void login();
 
         void forgotPassword();
+
+        void showInvalidCreds();
     }
 
     public interface Presenter extends MvpPresenter {
-        void onLoginPressed();
+        void onLoginPressed(@NonNull String email, @NonNull String password);
 
         void onForgotPasswordPressed();
     }
