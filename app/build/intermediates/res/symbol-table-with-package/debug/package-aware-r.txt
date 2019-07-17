@@ -1004,6 +1004,7 @@ string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
 string user_profile_name
+string web_client_id
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

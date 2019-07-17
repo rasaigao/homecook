@@ -13,6 +13,8 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.homecook.android.app.R;
+import com.homecook.android.app.auth.login.SSOGoogleFragment;
+import com.homecook.android.app.auth.login.GoogleSignInActivity;
 import com.homecook.android.app.common.Keys;
 import com.homecook.android.app.common.MainActivity;
 import com.homecook.android.app.feed.FeedActivity;
@@ -68,7 +70,8 @@ public class EntryActivity extends MainActivity implements
 
     @Override
     public void goToSSOLoginScreen() {
-
+        Intent intent = new Intent(this, GoogleSignInActivity.class);
+        startActivity(intent);
     }
 
     @Override

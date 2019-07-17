@@ -1,4 +1,4 @@
-package com.homecook.android.app.auth;
+package com.homecook.android.app.auth.login;
 
 import androidx.fragment.app.Fragment;
 

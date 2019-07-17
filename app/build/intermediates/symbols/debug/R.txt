@@ -1003,6 +1003,7 @@ int string project_id 0x7f0b0048
 int string search_menu_title 0x7f0b0049
 int string status_bar_notification_info_overflow 0x7f0b004a
 int string user_profile_name 0x7f0b004b
+int string web_client_id 0x7f0b004c
 int style AlertDialog_AppCompat 0x7f0c0000
 int style AlertDialog_AppCompat_Light 0x7f0c0001
 int style Animation_AppCompat_Dialog 0x7f0c0002

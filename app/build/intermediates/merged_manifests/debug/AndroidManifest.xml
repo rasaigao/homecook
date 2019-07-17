@@ -33,6 +33,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.homecook.android.app.feed.FeedActivity" />
+        <activity android:name="com.homecook.android.app.auth.login.GoogleSignInActivity" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
@@ -43,6 +44,20 @@
             android:authorities="com.homecook.android.app.crashlyticsinitprovider"
             android:exported="false"
             android:initOrder="90" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
 
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
