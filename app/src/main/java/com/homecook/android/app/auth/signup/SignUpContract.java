@@ -1,4 +1,4 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.auth.signup;
 
 import androidx.annotation.NonNull;
 
@@ -14,6 +14,9 @@ public interface SignUpContract {
     }
 
     interface Presenter extends MvpPresenter {
-        void onSignUpPressed(@NonNull String email, @NonNull String password);
+        void onSignUpPressed(@NonNull String email,
+                             @NonNull String password,
+                             @NonNull final String firstName,
+                             @NonNull final String lastName);
     }
 }

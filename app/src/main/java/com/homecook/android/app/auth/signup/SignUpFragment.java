@@ -1,26 +1,18 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.auth.signup;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.auth.UserProfileChangeRequest;
 import com.homecook.android.app.R;
-import com.homecook.android.app.entry.EntryActivity;
+import com.homecook.android.app.auth.common.LoginCallback;
 
 /**
  * @author rohansaigaonkar
@@ -35,7 +27,6 @@ public class SignUpFragment extends Fragment implements SignUpContract.View {
 
     private Callback callback;
     private SignUpContract.Presenter presenter;
-    private FirebaseAuth mAuth;
     private EditText emailField;
     private EditText passwordField;
     private EditText firstNameField;
@@ -60,13 +51,17 @@ public class SignUpFragment extends Fragment implements SignUpContract.View {
         emailField = view.findViewById(R.id.email_signup);
         firstNameField = view.findViewById(R.id.first_name_signup);
         lastNameField = view.findViewById(R.id.last_name_signup);
-        mAuth = FirebaseAuth.getInstance();
 
         Button signUpButton = view.findViewById(R.id.register_button);
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                presenter.onSignUpPressed();
+                presenter.onSignUpPressed(
+                        emailField.getText().toString(),
+                        passwordField.getText().toString(),
+                        firstNameField.getText().toString(),
+                        lastNameField.getText().toString()
+                );
             }
         });
         return view;
@@ -74,12 +69,7 @@ public class SignUpFragment extends Fragment implements SignUpContract.View {
 
     @Override
     public void signUp() {
-        final String email = emailField.getText().toString();
-        final String password = passwordField.getText().toString();
-        final String firstName = firstNameField.getText().toString();
-        final String lastName = lastNameField.getText().toString();
-
-
+        callback.enterApp();
     }
 
     @Override

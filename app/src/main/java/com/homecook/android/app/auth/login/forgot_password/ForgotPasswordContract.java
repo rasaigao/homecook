@@ -1,4 +1,4 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.auth.login.forgot_password;
 
 import com.homecook.android.app.common.MvpPresenter;
 import com.homecook.android.app.common.MvpView;

@@ -1,7 +1,6 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.auth.login;
 
 import android.util.Log;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 

@@ -18,6 +18,7 @@
         </intent-filter>
         </activity>
         <activity android:name=".feed.FeedActivity" />
+        <activity android:name=".auth.login.GoogleSignInActivity" />
 
         <meta-data
             android:name="io.fabric.ApiKey"

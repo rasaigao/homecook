@@ -1,4 +1,4 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.auth.login;
 
 import androidx.annotation.NonNull;
 

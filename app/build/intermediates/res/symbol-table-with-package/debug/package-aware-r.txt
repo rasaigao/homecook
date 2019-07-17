@@ -536,6 +536,7 @@ dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen form_text_size
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -761,6 +762,7 @@ id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+id first_name_signup
 id forever
 id forgot_password
 id gone
@@ -777,6 +779,7 @@ id info
 id invalid_creds
 id invisible
 id italic
+id last_name_signup
 id left
 id light
 id line1
@@ -985,6 +988,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string confirm_text
 string default_web_client_id
 string firebase_database_url
 string forgot_your_password
@@ -995,9 +999,11 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string invalid_credentials
 string login_button_text
+string min_chars
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string user_profile_name
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

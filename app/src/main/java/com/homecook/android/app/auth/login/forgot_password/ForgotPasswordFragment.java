@@ -1,4 +1,4 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.auth.login.forgot_password;
 
 import android.content.Context;
 import android.os.Bundle;

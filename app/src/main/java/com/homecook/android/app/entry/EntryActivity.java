@@ -16,9 +16,9 @@ import com.homecook.android.app.R;
 import com.homecook.android.app.common.Keys;
 import com.homecook.android.app.common.MainActivity;
 import com.homecook.android.app.feed.FeedActivity;
-import com.homecook.android.app.login.ForgotPasswordFragment;
-import com.homecook.android.app.login.SignInFragment;
-import com.homecook.android.app.login.SignUpFragment;
+import com.homecook.android.app.auth.login.forgot_password.ForgotPasswordFragment;
+import com.homecook.android.app.auth.login.SignInFragment;
+import com.homecook.android.app.auth.signup.SignUpFragment;
 
 import io.fabric.sdk.android.Fabric;
 

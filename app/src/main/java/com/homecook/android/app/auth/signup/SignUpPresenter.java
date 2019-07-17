@@ -1,4 +1,4 @@
-package com.homecook.android.app.login;
+package com.homecook.android.app.auth.signup;
 
 import android.util.Log;
 import android.widget.Toast;
@@ -31,7 +31,10 @@ public class SignUpPresenter implements SignUpContract.Presenter {
 
     }
     @Override
-    public void onSignUpPressed(@NonNull String email, @NonNull String password) {
+    public void onSignUpPressed(@NonNull String email,
+                                @NonNull String password,
+                                @NonNull final String firstName,
+                                @NonNull final String lastName) {
         if (email.isEmpty() || password.isEmpty()) {
             return;
         }
@@ -48,16 +51,15 @@ public class SignUpPresenter implements SignUpContract.Presenter {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "createUserWithEmail:success");
                             UserProfileChangeRequest profileUpdate = new UserProfileChangeRequest.Builder()
-                                    .setDisplayName(getString(R.string.user_profile_name, firstName, lastName))
+                                    .setDisplayName(((SignUpFragment) view).getResources().getString(R.string.user_profile_name, firstName, lastName))
                                     .build();
                             mAuth.getCurrentUser().updateProfile(profileUpdate);
-                            callback.enterApp();
+                            view.signUp();
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "createUserWithEmail:failure", task.getException());
-                            Toast.makeText(getContext(), "Authentication failed.",
+                            Toast.makeText(((SignUpFragment) view).getContext(), "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
-                            callback.enterApp();
                         }
                     }
                 });
