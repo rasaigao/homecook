@@ -17,7 +17,6 @@ import com.homecook.android.app.R;
 import com.homecook.android.app.auth.login.GoogleSignInActivity;
 import com.homecook.android.app.auth.login.SignInFragment;
 import com.homecook.android.app.auth.login.forgot_password.ForgotPasswordActivity;
-import com.homecook.android.app.auth.login.forgot_password.ForgotPasswordFragment;
 import com.homecook.android.app.auth.signup.SignUpFragment;
 import com.homecook.android.app.common.Keys;
 import com.homecook.android.app.common.MainActivity;
@@ -48,7 +47,7 @@ public class EntryActivity extends MainActivity implements
         fragmentManager = getSupportFragmentManager();
         mAuth = FirebaseAuth.getInstance();
 
-        navigateToScreen(new EntryFragment());
+        navigateToFragment(new EntryFragment());
     }
 
     @Override
@@ -71,12 +70,12 @@ public class EntryActivity extends MainActivity implements
 
     @Override
     public void goToSignUpWithEmailScreen() {
-        navigateToScreen(new SignUpFragment());
+        navigateToFragment(new SignUpFragment());
     }
 
     @Override
     public void goToLoginCredentialScreen() {
-        navigateToScreen(new SignInFragment());
+        navigateToFragment(new SignInFragment());
     }
 
     @Override
@@ -106,7 +105,8 @@ public class EntryActivity extends MainActivity implements
 
     }
 
-    private void navigateToScreen(@NonNull Fragment fragment) {
+    @Override
+    public void navigateToFragment(@NonNull Fragment fragment) {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.entry_container, fragment);
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
