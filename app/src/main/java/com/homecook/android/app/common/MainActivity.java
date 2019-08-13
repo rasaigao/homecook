@@ -1,8 +1,8 @@
 package com.homecook.android.app.common;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.homecook.android.app.R;
 

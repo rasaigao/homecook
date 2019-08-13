@@ -9,14 +9,14 @@ import com.homecook.android.app.common.MvpView;
  * @author rohansaigaonkar
  */
 public interface ForgotPasswordContract {
-    public interface View extends MvpView<Presenter> {
+    interface View extends MvpView<Presenter> {
 
         void onPasswordEmailSent();
 
         void showInvalidEmail();
     }
 
-    public interface Presenter extends MvpPresenter {
+    interface Presenter extends MvpPresenter {
         void onSendPasswordResetPressed(@NonNull String email);
     }
 }

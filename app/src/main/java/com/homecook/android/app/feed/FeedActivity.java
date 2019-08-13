@@ -11,11 +11,17 @@ import com.homecook.android.app.common.LoggedInActivity;
  */
 public class FeedActivity extends LoggedInActivity {
     private static final String TAG = FeedActivity.class.getSimpleName();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feed);
         Log.d(TAG, "User logged in successfully");
+    }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finishAffinity();
     }
 }

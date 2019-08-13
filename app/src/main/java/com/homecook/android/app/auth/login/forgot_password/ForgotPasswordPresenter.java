@@ -14,12 +14,14 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class ForgotPasswordPresenter implements ForgotPasswordContract.Presenter {
     private static final String TAG = ForgotPasswordPresenter.class.getSimpleName();
-    @NonNull private ForgotPasswordContract.View view;
+    @NonNull
+    private ForgotPasswordContract.View view;
 
     public ForgotPasswordPresenter(@NonNull ForgotPasswordContract.View view) {
         this.view = view;
         this.view.setPresenter(this);
     }
+
     @Override
     public void start() {
 
@@ -40,5 +42,6 @@ public class ForgotPasswordPresenter implements ForgotPasswordContract.Presenter
                             Log.w(TAG, "Could not send password recovery email");
                         }
                     }
-                });    }
+                });
+    }
 }

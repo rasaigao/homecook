@@ -18,18 +18,22 @@ import com.homecook.android.app.R;
 
 public class SignUpPresenter implements SignUpContract.Presenter {
     private static final String TAG = SignUpPresenter.class.getSimpleName();
-    @NonNull private SignUpContract.View view;
-    @NonNull private FirebaseAuth mAuth;
+    @NonNull
+    private SignUpContract.View view;
+    @NonNull
+    private FirebaseAuth mAuth;
 
     public SignUpPresenter(@NonNull SignUpContract.View view) {
         this.view = view;
         this.view.setPresenter(this);
         mAuth = FirebaseAuth.getInstance();
     }
+
     @Override
     public void start() {
 
     }
+
     @Override
     public void onSignUpPressed(@NonNull String email,
                                 @NonNull String password,
@@ -39,7 +43,7 @@ public class SignUpPresenter implements SignUpContract.Presenter {
             return;
         }
 
-        if(((SignUpFragment) view).getActivity() == null) {
+        if (((SignUpFragment) view).getActivity() == null) {
             return;
         }
         mAuth.createUserWithEmailAndPassword(email, password)

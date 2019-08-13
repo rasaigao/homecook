@@ -13,10 +13,10 @@ import com.homecook.android.app.R;
 /**
  * @author rohansaigaonkar
  */
-class PasswordResetSuccessFragment extends Fragment {
+public class PasswordResetSuccessFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-       return inflater.inflate(R.layout.fragment_forgot_password, container, false);
+        return inflater.inflate(R.layout.fragment_forgot_password, container, false);
     }
 }

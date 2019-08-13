@@ -14,7 +14,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.homecook.android.app.R;
 
@@ -30,6 +29,7 @@ public class ForgotPasswordFragment extends Fragment implements ForgotPasswordCo
         void onRecoverySuccess();
 
     }
+
     private static final String TAG = ForgotPasswordFragment.class.getSimpleName();
     private ForgotPasswordContract.Presenter presenter;
     private FirebaseAuth mAuth;

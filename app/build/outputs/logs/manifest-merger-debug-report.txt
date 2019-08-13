@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1546c9f9312a99b50ca9de167b9facb5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/667d0756852400485c626e809840b256/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e86a5f41009f2c3f146b87268a20e2b8/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e389816b73f158cf3ce7e17880de142e/AndroidManifest.xml:2:1-11:12
@@ -32,11 +33,13 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d1c35d69512123bf9b4cd398eb28a176/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a53a25105637d1c813f2203628a103c7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f123dc98c723ac42c970ea7781e45be1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df7a091bab016267b8374b1f1d4414ce/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9cc010cca807f4c41ede88ba81ccd197/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/867b09405b43134b2d3846e68f2eeeb9/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/10947198ccc67286a9243d48933974d7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c222dcefed85db43daca3411edfafc04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5180fc1b3d12ba565d7fa5d414775de7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/52709e9b1211f3959974c0a08f98c837/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/3559420946b0c7136ec5a2a0b83d016c/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f0a21a103d950dd83435f5ebdb830202/AndroidManifest.xml:17:1-22:12
@@ -47,6 +50,7 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/roha
 MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5540d9582c3084db2ccc07d4b9abdcd8/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/74dd48ed01655f9e09cddde0a2eb1c16/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/3bac91b8030620ca94b26f6aad35473c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cfba7c44d78ab2b046c04cb09336d3ab/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d3a1b2509b1ff40ae3e2c66c4181bb71/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6b9fd982655cd2e839a9db826320aec4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/aa1abd0d61cf0b58b4e19c42a7c1d293/AndroidManifest.xml:17:1-22:12
@@ -60,25 +64,27 @@ MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansai
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:2:1-13:12
 MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:22:1-33:12
-INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:5:5-26:19
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1546c9f9312a99b50ca9de167b9facb5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1546c9f9312a99b50ca9de167b9facb5/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e389816b73f158cf3ce7e17880de142e/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e389816b73f158cf3ce7e17880de142e/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5df6e29833db3841206740fbee0f44f0/AndroidManifest.xml:7:5-20
@@ -175,14 +181,18 @@ activity#com.homecook.android.app.auth.login.GoogleSignInActivity
 ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:21:9-69
 	android:name
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:21:19-66
+activity#com.homecook.android.app.auth.login.forgot_password.ForgotPasswordActivity
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:22:9-87
+	android:name
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:22:19-84
 meta-data#io.fabric.ApiKey
-ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:23:9-25:72
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:24:9-26:72
 	android:value
-		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:25:13-69
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:26:13-69
 	android:name
-		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:24:13-44
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:25:13-44
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:28:5-67
+ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:29:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:16:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:16:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9972e348cbc8ecdec2e6337fc7a5d097/AndroidManifest.xml:22:5-67
@@ -204,11 +214,13 @@ MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:29:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:28:22-64
+		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:29:22-64
 uses-sdk
 INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1546c9f9312a99b50ca9de167b9facb5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1546c9f9312a99b50ca9de167b9facb5/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/667d0756852400485c626e809840b256/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/667d0756852400485c626e809840b256/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e86a5f41009f2c3f146b87268a20e2b8/AndroidManifest.xml:20:5-44
@@ -265,6 +277,8 @@ MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/ca
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d1c35d69512123bf9b4cd398eb28a176/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a53a25105637d1c813f2203628a103c7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a53a25105637d1c813f2203628a103c7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f123dc98c723ac42c970ea7781e45be1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f123dc98c723ac42c970ea7781e45be1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df7a091bab016267b8374b1f1d4414ce/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/df7a091bab016267b8374b1f1d4414ce/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9cc010cca807f4c41ede88ba81ccd197/AndroidManifest.xml:20:5-44
@@ -275,6 +289,8 @@ MERGED from [androidx.media:media:1.0.0] /Users/rohansaigaonkar/.gradle/caches/t
 MERGED from [androidx.media:media:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/10947198ccc67286a9243d48933974d7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c222dcefed85db43daca3411edfafc04/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c222dcefed85db43daca3411edfafc04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5180fc1b3d12ba565d7fa5d414775de7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5180fc1b3d12ba565d7fa5d414775de7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/52709e9b1211f3959974c0a08f98c837/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/52709e9b1211f3959974c0a08f98c837/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/3559420946b0c7136ec5a2a0b83d016c/AndroidManifest.xml:20:5-44
@@ -295,6 +311,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/roha
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/74dd48ed01655f9e09cddde0a2eb1c16/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/3bac91b8030620ca94b26f6aad35473c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/3bac91b8030620ca94b26f6aad35473c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cfba7c44d78ab2b046c04cb09336d3ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cfba7c44d78ab2b046c04cb09336d3ab/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d3a1b2509b1ff40ae3e2c66c4181bb71/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d3a1b2509b1ff40ae3e2c66c4181bb71/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/6b9fd982655cd2e839a9db826320aec4/AndroidManifest.xml:20:5-44

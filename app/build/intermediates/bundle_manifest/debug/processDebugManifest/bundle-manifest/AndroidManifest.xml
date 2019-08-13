@@ -34,6 +34,7 @@
         </activity>
         <activity android:name="com.homecook.android.app.feed.FeedActivity" />
         <activity android:name="com.homecook.android.app.auth.login.GoogleSignInActivity" />
+        <activity android:name="com.homecook.android.app.auth.login.forgot_password.ForgotPasswordActivity" />
 
         <meta-data
             android:name="io.fabric.ApiKey"

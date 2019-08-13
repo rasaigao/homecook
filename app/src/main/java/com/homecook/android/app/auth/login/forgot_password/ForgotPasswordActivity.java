@@ -1,19 +1,12 @@
 package com.homecook.android.app.auth.login.forgot_password;
 
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.EditText;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.crashlytics.android.Crashlytics;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.analytics.FirebaseAnalytics;
-import com.google.firebase.auth.FirebaseAuth;
 import com.homecook.android.app.R;
 import com.homecook.android.app.common.MainActivity;
 
@@ -32,7 +25,8 @@ public class ForgotPasswordActivity extends MainActivity implements ForgotPasswo
 
     }
 
-    @Override public void onCreate(Bundle savedInstanceState) {
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);

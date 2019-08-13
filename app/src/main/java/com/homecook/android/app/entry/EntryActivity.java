@@ -8,18 +8,20 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
 import com.crashlytics.android.Crashlytics;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.homecook.android.app.R;
 import com.homecook.android.app.auth.login.GoogleSignInActivity;
+import com.homecook.android.app.auth.login.SignInFragment;
+import com.homecook.android.app.auth.login.forgot_password.ForgotPasswordActivity;
+import com.homecook.android.app.auth.login.forgot_password.ForgotPasswordFragment;
+import com.homecook.android.app.auth.signup.SignUpFragment;
 import com.homecook.android.app.common.Keys;
 import com.homecook.android.app.common.MainActivity;
 import com.homecook.android.app.feed.FeedActivity;
-import com.homecook.android.app.auth.login.forgot_password.ForgotPasswordFragment;
-import com.homecook.android.app.auth.login.SignInFragment;
-import com.homecook.android.app.auth.signup.SignUpFragment;
 
 import io.fabric.sdk.android.Fabric;
 
@@ -31,7 +33,7 @@ public class EntryActivity extends MainActivity implements
         SignInFragment.Callback,
         SignUpFragment.Callback {
 
-    private String TAG = this.getClass().getSimpleName();
+    private String TAG = EntryActivity.class.getSimpleName();
 
     private FragmentManager fragmentManager;
     private FirebaseAuth mAuth;
@@ -58,13 +60,11 @@ public class EntryActivity extends MainActivity implements
 
     @Override
     public void onBackPressed() {
-        if(getSupportFragmentManager().getBackStackEntryCount() == 0) {
+        if (getSupportFragmentManager().getBackStackEntryCount() == 0) {
             super.onBackPressed();
-        }
-        else if(getSupportFragmentManager().getBackStackEntryCount() == 1) {
+        } else if (getSupportFragmentManager().getBackStackEntryCount() == 1) {
             moveTaskToBack(false);
-        }
-        else {
+        } else {
             getSupportFragmentManager().popBackStack();
         }
     }
@@ -97,7 +97,8 @@ public class EntryActivity extends MainActivity implements
 
     @Override
     public void forgotPassword() {
-        navigateToScreen(new ForgotPasswordFragment());
+        Intent intent = new Intent(this, ForgotPasswordActivity.class);
+        startActivity(intent);
     }
 
     @Override
@@ -112,13 +113,16 @@ public class EntryActivity extends MainActivity implements
         fragmentTransaction.commit();
         fragmentTransaction.addToBackStack(null);
     }
+
     private void updateUI(@Nullable FirebaseUser user) {
         if (user != null) {
             enterApplication(user);
         }
     }
+
     private void enterApplication(@NonNull FirebaseUser user) {
         Intent intent = new Intent(this, FeedActivity.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         intent.putExtra(Keys.LOGIN_INFO_KEY, user);
         startActivity(intent);
     }

@@ -16,18 +16,22 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SignInPresenter implements SignInContract.Presenter {
     private static final String TAG = SignInPresenter.class.getSimpleName();
 
-    @NonNull private SignInContract.View view;
-    @NonNull private FirebaseAuth mAuth;
+    @NonNull
+    private SignInContract.View view;
+    @NonNull
+    private FirebaseAuth mAuth;
 
     public SignInPresenter(@NonNull SignInContract.View view) {
         this.view = view;
         this.view.setPresenter(this);
         mAuth = FirebaseAuth.getInstance();
     }
+
     @Override
     public void start() {
 
     }
+
     @Override
     public void onLoginPressed(@NonNull String email, @NonNull String password) {
 

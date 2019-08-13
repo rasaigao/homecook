@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_menu_nearby"
+        android:title="Nearby"
+        android:icon="@drawable/ic_nearby"/>
+    <item android:id="@+id/bottom_menu_following"
+        android:title="Following"
+        android:icon="@drawable/ic_following"/>
+    <item android:id="@+id/bottom_menu_favourites"
+        android:title="Favourites"
+        android:icon="@drawable/ic_favourites"/>
+    <item android:id="@+id/bottom_menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"/>
+</menu>

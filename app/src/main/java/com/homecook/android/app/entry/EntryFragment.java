@@ -58,7 +58,7 @@ public class EntryFragment extends Fragment implements EntryContract.View {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_credentials, container, false);
-        presenter =  new EntryPresenter(this);
+        presenter = new EntryPresenter(this);
         Button googleSignInButton = view.findViewById(R.id.signup_google);
         Button emailSignInButton = view.findViewById(R.id.signup_email);
         TextView loginButton = view.findViewById(R.id.sign_in_account_exists);

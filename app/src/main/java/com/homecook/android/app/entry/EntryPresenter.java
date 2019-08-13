@@ -7,9 +7,10 @@ import androidx.annotation.NonNull;
  */
 public class EntryPresenter implements EntryContract.Presenter {
 
-    @NonNull EntryContract.View view;
+    @NonNull
+    EntryContract.View view;
 
-    public EntryPresenter (@NonNull EntryContract.View view) {
+    public EntryPresenter(@NonNull EntryContract.View view) {
         this.view = view;
     }
 

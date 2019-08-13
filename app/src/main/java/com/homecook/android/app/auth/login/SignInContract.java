@@ -9,7 +9,7 @@ import com.homecook.android.app.common.MvpView;
  * @author rohansaigaonkar
  */
 public interface SignInContract {
-    public interface View extends MvpView<Presenter> {
+    interface View extends MvpView<Presenter> {
         void login();
 
         void forgotPassword();
@@ -17,7 +17,7 @@ public interface SignInContract {
         void showInvalidCreds();
     }
 
-    public interface Presenter extends MvpPresenter {
+    interface Presenter extends MvpPresenter {
         void onLoginPressed(@NonNull String email, @NonNull String password);
 
         void onForgotPasswordPressed();
