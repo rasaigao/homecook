@@ -1,5 +1,7 @@
 package com.homecook.android.app.auth.login.forgot_password;
 
+import androidx.annotation.NonNull;
+
 import com.homecook.android.app.common.MvpPresenter;
 import com.homecook.android.app.common.MvpView;
 
@@ -8,10 +10,13 @@ import com.homecook.android.app.common.MvpView;
  */
 public interface ForgotPasswordContract {
     public interface View extends MvpView<Presenter> {
-        void sendPasswordReset();
+
+        void onPasswordEmailSent();
+
+        void showInvalidEmail();
     }
 
     public interface Presenter extends MvpPresenter {
-        void onSendPasswordResetPressed();
+        void onSendPasswordResetPressed(@NonNull String email);
     }
 }

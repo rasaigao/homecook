@@ -13,7 +13,6 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.homecook.android.app.R;
-import com.homecook.android.app.auth.login.SSOGoogleFragment;
 import com.homecook.android.app.auth.login.GoogleSignInActivity;
 import com.homecook.android.app.common.Keys;
 import com.homecook.android.app.common.MainActivity;
@@ -30,8 +29,7 @@ import io.fabric.sdk.android.Fabric;
 public class EntryActivity extends MainActivity implements
         EntryFragment.Callback,
         SignInFragment.Callback,
-        SignUpFragment.Callback,
-        ForgotPasswordFragment.Callback {
+        SignUpFragment.Callback {
 
     private String TAG = this.getClass().getSimpleName();
 
@@ -56,6 +54,19 @@ public class EntryActivity extends MainActivity implements
         super.onStart();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(getSupportFragmentManager().getBackStackEntryCount() == 0) {
+            super.onBackPressed();
+        }
+        else if(getSupportFragmentManager().getBackStackEntryCount() == 1) {
+            moveTaskToBack(false);
+        }
+        else {
+            getSupportFragmentManager().popBackStack();
+        }
     }
 
     @Override
@@ -85,11 +96,6 @@ public class EntryActivity extends MainActivity implements
     }
 
     @Override
-    public void sendPasswordReset() {
-        //todo: send password reset
-    }
-
-    @Override
     public void forgotPassword() {
         navigateToScreen(new ForgotPasswordFragment());
     }
@@ -104,6 +110,7 @@ public class EntryActivity extends MainActivity implements
         fragmentTransaction.replace(R.id.entry_container, fragment);
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         fragmentTransaction.commit();
+        fragmentTransaction.addToBackStack(null);
     }
     private void updateUI(@Nullable FirebaseUser user) {
         if (user != null) {

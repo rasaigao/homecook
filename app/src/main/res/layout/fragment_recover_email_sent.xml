@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="reset your password"
+            android:text="Successfully sent recovery email!"
             android:textColor="@color/colorPrimary"
             android:layout_marginBottom="48dp"
             android:gravity="center"
@@ -23,32 +23,16 @@
             android:textSize="24sp"/>
 
 
-        <EditText
-            android:id="@+id/fpw_email"
-            android:inputType="textEmailAddress"
-            android:backgroundTint="@color/colorPrimary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="email"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/fpw_invalid_email"
             android:padding="3dp"
-            android:textColor="@color/hc_red"
-            android:text="we don't know this email, maybe you'd like to create an account with it instead?"
+            android:textColor="@color/colorPrimary"
+            android:text="check your inbox for the recovery email. if you cannot find it, try your junk folder, or make sure you entered the correct email address"
             />
 
-        <Button
-            android:id="@+id/fpw_recovery_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="@color/hc_white"
-            android:textAllCaps="false"
-            android:text="send recovery email"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".feed.FeedActivity" />
         <activity android:name=".auth.login.GoogleSignInActivity" />
+        <activity android:name=".auth.login.forgot_password.ForgotPasswordActivity" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
