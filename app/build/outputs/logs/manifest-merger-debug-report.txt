@@ -9,7 +9,7 @@ MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/rohansaigaonkar/.gradle/
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e86a5f41009f2c3f146b87268a20e2b8/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e389816b73f158cf3ce7e17880de142e/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5df6e29833db3841206740fbee0f44f0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:2:1-26:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c0bce71eef63294f861691e6c9fd64a7/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/22a7bcfb611764d0afb2fb2642cba535/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/609bb2c3af04bba4821ef43aaf720111/AndroidManifest.xml:2:1-7:12
@@ -30,7 +30,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /User
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ad293a135586f12641a03e4a5af6ce58/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/19f32328ffe3e0835fa46da6511ac3ac/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2d17bffffb42c9c6ffdf2355d5a5d906/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d1c35d69512123bf9b4cd398eb28a176/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a53a25105637d1c813f2203628a103c7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/f123dc98c723ac42c970ea7781e45be1/AndroidManifest.xml:17:1-22:12
@@ -62,7 +62,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rohansaiga
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/8d3ff2d349f63138fc9577e31121a50f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/002e772a30f5a56cbc69cb0634d2e483/AndroidManifest.xml:45:1-56:12
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cb89b5107605e07ab41dbb43b869e6fc/AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:22:1-33:12
 INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
 INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:2:1-30:12
@@ -89,8 +89,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaiga
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e389816b73f158cf3ce7e17880de142e/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5df6e29833db3841206740fbee0f44f0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5df6e29833db3841206740fbee0f44f0/AndroidManifest.xml:7:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:18:5-24:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:18:5-24:19
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c0bce71eef63294f861691e6c9fd64a7/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c0bce71eef63294f861691e6c9fd64a7/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/22a7bcfb611764d0afb2fb2642cba535/AndroidManifest.xml:23:5-40:19
@@ -127,8 +127,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/r
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/19f32328ffe3e0835fa46da6511ac3ac/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2d17bffffb42c9c6ffdf2355d5a5d906/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2d17bffffb42c9c6ffdf2355d5a5d906/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5540d9582c3084db2ccc07d4b9abdcd8/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5540d9582c3084db2ccc07d4b9abdcd8/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/74dd48ed01655f9e09cddde0a2eb1c16/AndroidManifest.xml:22:5-23:19
@@ -137,8 +137,8 @@ MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansai
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/002e772a30f5a56cbc69cb0634d2e483/AndroidManifest.xml:54:5-20
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:11:5-20
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cb89b5107605e07ab41dbb43b869e6fc/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cb89b5107605e07ab41dbb43b869e6fc/AndroidManifest.xml:11:5-20
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:31:5-20
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:31:5-20
 	android:appComponentFactory
@@ -193,8 +193,8 @@ ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifes
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:25:13-44
 uses-permission#android.permission.INTERNET
 ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml:29:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:16:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:16:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9972e348cbc8ecdec2e6337fc7a5d097/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/9972e348cbc8ecdec2e6337fc7a5d097/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/ee12cd83d1496971a4954499bc46efe2/AndroidManifest.xml:23:5-67
@@ -209,8 +209,8 @@ MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansai
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/002e772a30f5a56cbc69cb0634d2e483/AndroidManifest.xml:52:5-67
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cb89b5107605e07ab41dbb43b869e6fc/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cb89b5107605e07ab41dbb43b869e6fc/AndroidManifest.xml:9:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:29:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:29:5-67
 	android:name
@@ -229,8 +229,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaiga
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/e389816b73f158cf3ce7e17880de142e/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5df6e29833db3841206740fbee0f44f0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/5df6e29833db3841206740fbee0f44f0/AndroidManifest.xml:5:5-44
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:12:5-14:63
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:12:5-14:63
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c0bce71eef63294f861691e6c9fd64a7/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c0bce71eef63294f861691e6c9fd64a7/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:18.1.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/22a7bcfb611764d0afb2fb2642cba535/AndroidManifest.xml:21:5-44
@@ -271,8 +271,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/r
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/19f32328ffe3e0835fa46da6511ac3ac/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2d17bffffb42c9c6ffdf2355d5a5d906/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/2d17bffffb42c9c6ffdf2355d5a5d906/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d1c35d69512123bf9b4cd398eb28a176/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/d1c35d69512123bf9b4cd398eb28a176/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a53a25105637d1c813f2203628a103c7/AndroidManifest.xml:20:5-44
@@ -335,14 +335,14 @@ MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansai
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/002e772a30f5a56cbc69cb0634d2e483/AndroidManifest.xml:50:5-43
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/171adc07a9a91f86d9af58bc14e2d86a/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a3050dcc558215c171d3526c9e8e4e5e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cb89b5107605e07ab41dbb43b869e6fc/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/cb89b5107605e07ab41dbb43b869e6fc/AndroidManifest.xml:7:5-43
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:27:5-43
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/fae460460ee2c48cfdb5a3068f03b323/AndroidManifest.xml:27:5-43
 INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:14:9-60
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:14:9-60
 	android:targetSdkVersion
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
@@ -352,15 +352,15 @@ INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidMani
 		ADDED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rohansaigaonkar/Documents/Homecook/app/src/main/AndroidManifest.xml
 provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:19:9-23:38
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:19:9-23:38
 	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:21:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:21:13-75
 	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:22:13-37
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:22:13-37
 	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:23:13-35
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:23:13-35
 	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/a27bf58ec831f511e50d5d13569925de/AndroidManifest.xml:20:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/7880a443399e3a8d8edbedf585151324/AndroidManifest.xml:20:13-75
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/c0bce71eef63294f861691e6c9fd64a7/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -538,8 +538,8 @@ ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/roha
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/01104e160525d454b2334ad9561a9740/AndroidManifest.xml:49:13-87
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1420f2c4c648c933694684ded43a24d4/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/1390fb82ccd0d8f6d0e909c69b493696/AndroidManifest.xml:24:13-58

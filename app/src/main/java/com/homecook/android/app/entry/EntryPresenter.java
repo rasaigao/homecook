@@ -12,6 +12,7 @@ public class EntryPresenter implements EntryContract.Presenter {
 
     public EntryPresenter(@NonNull EntryContract.View view) {
         this.view = view;
+
     }
 
     @Override

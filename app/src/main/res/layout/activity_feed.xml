@@ -7,24 +7,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/feed_fragment_container"/>
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/button_new_item"
         android:layout_gravity="end|bottom"
         android:layout_marginEnd="24dp"
         android:src="@drawable/ic_write"
         android:layout_marginBottom="76dp"/>
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="4dp"
-        android:layout_gravity="bottom"
-        android:background="@color/colorPrimary"
-        app:itemIconTint="@color/bottom_navigation_item_foreground"
-        app:itemTextColor="@color/bottom_navigation_item_foreground"
-        app:menu="@menu/bottom_navigation_menu"
-        app:labelVisibilityMode="auto"/>
+    android:id="@+id/bottom_navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:layout_gravity="bottom"
+    android:background="@color/colorPrimary"
+    app:itemIconTint="@color/bottom_navigation_item_foreground"
+    app:itemTextColor="@color/bottom_navigation_item_foreground"
+    app:menu="@menu/bottom_navigation_menu"
+    app:labelVisibilityMode="auto"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
