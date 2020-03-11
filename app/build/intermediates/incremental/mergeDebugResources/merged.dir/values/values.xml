@@ -223,6 +223,7 @@
     <color name="google_red">#DB3236</color>
     <color name="hc_blue">#4281FF</color>
     <color name="hc_grayed_primary">#A9FCED</color>
+    <color name="hc_grayed_red">#FFD1CB</color>
     <color name="hc_red">#BB1542</color>
     <color name="hc_white">#FFFFFF</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
@@ -496,6 +497,7 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="dataBinding" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
@@ -503,6 +505,8 @@
     <item name="line3" type="id"/>
     <item name="mtrl_child_content_container" type="id"/>
     <item name="mtrl_internal_children_alpha_tag" type="id"/>
+    <item name="onAttachStateChangeListener" type="id"/>
+    <item name="onDateChanged" type="id"/>
     <item name="parent_matrix" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -517,6 +521,7 @@
     <item name="tag_unhandled_key_listeners" type="id"/>
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
+    <item name="textWatcher" type="id"/>
     <item name="textinput_counter" type="id"/>
     <item name="textinput_error" type="id"/>
     <item name="textinput_helper_text" type="id"/>
@@ -589,7 +594,7 @@
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">15d29bfb-7eb4-47d2-9cd2-70ce6b16a5e6</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">3df8e5dd-eb7a-4551-bba2-63c222b9e33d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -612,6 +617,7 @@
     <string name="default_web_client_id" translatable="false">357909652284-u8qbiad792fh8mmjlvd4u2ut1dqimbl3.apps.googleusercontent.com</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://homecook-dade1.firebaseio.com</string>
     <string name="forgot_your_password"><u>forgot your password?</u></string>
     <string name="gcm_defaultSenderId" translatable="false">357909652284</string>

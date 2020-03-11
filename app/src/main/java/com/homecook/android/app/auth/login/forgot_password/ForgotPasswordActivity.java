@@ -2,6 +2,7 @@ package com.homecook.android.app.auth.login.forgot_password;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -32,10 +33,11 @@ public class ForgotPasswordActivity extends MainActivity implements ForgotPasswo
         setContentView(R.layout.activity_main);
 
         fragmentManager = getSupportFragmentManager();
-        goToFragment(new ForgotPasswordFragment());
+        navigateToFragment(new ForgotPasswordFragment());
     }
 
-    private void goToFragment(Fragment fragment) {
+    @Override
+    public void navigateToFragment(Fragment fragment) {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.entry_container, fragment);
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
@@ -54,6 +56,6 @@ public class ForgotPasswordActivity extends MainActivity implements ForgotPasswo
 
     @Override
     public void onRecoverySuccess() {
-        goToFragment(new PasswordResetSuccessFragment());
+        navigateToFragment(new PasswordResetSuccessFragment());
     }
 }
