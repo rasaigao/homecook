@@ -20,6 +20,13 @@
         <activity android:name=".feed.FeedActivity" />
         <activity android:name=".auth.login.GoogleSignInActivity" />
         <activity android:name=".auth.login.forgot_password.ForgotPasswordActivity" />
+        <service
+            android:name=".messaging.HomecookMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
         <meta-data
             android:name="io.fabric.ApiKey"

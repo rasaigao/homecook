@@ -8,6 +8,6 @@
     <color name="hc_blue">#4281FF</color>
     <color name="hc_white">#FFFFFF</color>
     <color name="hc_grayed_primary">#A9FCED</color>
-
+    <color name="hc_grayed_red">#FFD1CB</color>
     <color name="google_red">#DB3236</color>
 </resources>

@@ -9,6 +9,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
 import com.homecook.android.app.R;
 
@@ -18,10 +19,8 @@ import com.homecook.android.app.R;
 
 public class SignUpPresenter implements SignUpContract.Presenter {
     private static final String TAG = SignUpPresenter.class.getSimpleName();
-    @NonNull
-    private SignUpContract.View view;
-    @NonNull
-    private FirebaseAuth mAuth;
+    @NonNull private SignUpContract.View view;
+    @NonNull private FirebaseAuth mAuth;
 
     public SignUpPresenter(@NonNull SignUpContract.View view) {
         this.view = view;
@@ -58,6 +57,7 @@ public class SignUpPresenter implements SignUpContract.Presenter {
                                     .setDisplayName(((SignUpFragment) view).getResources().getString(R.string.user_profile_name, firstName, lastName))
                                     .build();
                             mAuth.getCurrentUser().updateProfile(profileUpdate);
+                            FirebaseUser user;
                             view.signUp();
                         } else {
                             // If sign in fails, display a message to the user.

@@ -1,0 +1,192 @@
+[debug] [2020-03-10T05:08:30.057Z] ----------------------------------------------------------------------
+[debug] [2020-03-10T05:08:30.061Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-03-10T05:08:30.061Z] CLI Version:   7.14.0
+[debug] [2020-03-10T05:08:30.061Z] Platform:      win32
+[debug] [2020-03-10T05:08:30.061Z] Node Version:  v12.16.1
+[debug] [2020-03-10T05:08:30.063Z] Time:          Tue Mar 10 2020 01:08:30 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-03-10T05:08:30.063Z] ----------------------------------------------------------------------
+[debug] [2020-03-10T05:08:30.063Z] 
+[debug] [2020-03-10T05:08:30.084Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-10T05:08:30.084Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[debug] [2020-03-10T05:08:32.211Z] [hub] writing locator at C:\Users\Rohan\AppData\Local\Temp\hub-homecook-dade1.json
+[info] +  hub: emulator hub started at http://localhost:4400
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\Rohan\Documents\GitHub\homecook\functions" for Cloud Functions...
+[debug] [2020-03-10T05:08:34.317Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-10T05:08:34.318Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-10T05:08:34.318Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-10T05:08:34.319Z] [worker-~diagnostic~-e0b8b35c-9fab-4f0e-a8a2-e19b4779c4af]: Assigning socketPath: \\?\pipe\C:\Users\Rohan\Documents\GitHub\homecook\functions\4828
+[debug] [2020-03-10T05:08:34.320Z] [worker-~diagnostic~-e0b8b35c-9fab-4f0e-a8a2-e19b4779c4af]: BUSY
+[debug] [2020-03-10T05:08:35.021Z] [runtime-status] [4828] Functions runtime initialized. {"cwd":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions","node_version":"12.16.1"}
+[debug] [2020-03-10T05:08:35.022Z] [runtime-status] [4828] Disabled runtime features: undefined
+[debug] [2020-03-10T05:08:35.031Z] [runtime-status] [4828] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:08:35.046Z] [runtime-status] [4828] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:08:38.479Z] [runtime-status] [4828] Found google-gax at C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-03-10T05:08:38.480Z] [runtime-status] [4828] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-03-10T05:08:39.114Z] [runtime-status] [4828] Checked functions.config() {"config":{}}
+[debug] [2020-03-10T05:08:39.116Z] [runtime-status] [4828] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:08:39.118Z] [runtime-status] [4828] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:08:39.119Z] [runtime-status] [4828] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:08:40.364Z] [runtime-status] [4828] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-03-10T05:08:40.367Z] [runtime-status] [4828] initializeApp(DEFAULT) {"databaseURL":"https://homecook-dade1.firebaseio.com","storageBucket":"homecook-dade1.appspot.com","projectId":"homecook-dade1"}
+[info] +  functions[postFeedItem]: http function initialized (http://localhost:5001/homecook-dade1/us-central1/postFeedItem).
+[info] +  All emulators started, it is now safe to connect.
+[debug] [2020-03-10T05:08:41.083Z] [worker-~diagnostic~-e0b8b35c-9fab-4f0e-a8a2-e19b4779c4af]: IDLE
+[debug] [2020-03-10T05:10:23.607Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-10T05:10:23.609Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-10T05:10:23.610Z] Accepted request GET /homecook-dade1/us-central1/postFeedItem --> postFeedItem
+[debug] [2020-03-10T05:10:23.625Z] [worker-pool] addWorker(postFeedItem)
+[debug] [2020-03-10T05:10:23.626Z] [worker-pool] Adding worker with key postFeedItem, total=1
+[debug] [2020-03-10T05:10:23.626Z] [worker-pool] submitWork(triggerId=postFeedItem)
+[debug] [2020-03-10T05:10:23.626Z] [worker-postFeedItem-272b045a-a02a-4eec-9f45-8c6226857ae5]: Assigning socketPath: \\?\pipe\C:\Users\Rohan\Documents\GitHub\homecook\functions\2284
+[debug] [2020-03-10T05:10:23.626Z] [worker-postFeedItem-272b045a-a02a-4eec-9f45-8c6226857ae5]: BUSY
+[debug] [2020-03-10T05:10:24.719Z] [runtime-status] [2284] Functions runtime initialized. {"cwd":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions","node_version":"12.16.1"}
+[debug] [2020-03-10T05:10:24.721Z] [runtime-status] [2284] Disabled runtime features: undefined
+[debug] [2020-03-10T05:10:24.734Z] [runtime-status] [2284] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:10:24.737Z] [runtime-status] [2284] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:10:25.207Z] [runtime-status] [2284] Found google-gax at C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-03-10T05:10:25.208Z] [runtime-status] [2284] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-03-10T05:10:25.286Z] [runtime-status] [2284] Checked functions.config() {"config":{}}
+[debug] [2020-03-10T05:10:25.287Z] [runtime-status] [2284] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:10:25.289Z] [runtime-status] [2284] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:10:25.292Z] [runtime-status] [2284] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:10:25.410Z] [runtime-status] [2284] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-03-10T05:10:25.413Z] [runtime-status] [2284] initializeApp(DEFAULT) {"databaseURL":"https://homecook-dade1.firebaseio.com","storageBucket":"homecook-dade1.appspot.com","projectId":"homecook-dade1"}
+[debug] [2020-03-10T05:10:25.488Z] [runtime-status] [2284] Trigger "postFeedItem" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "postFeedItem"
+[debug] [2020-03-10T05:10:25.490Z] [runtime-status] [2284] triggerDefinition {"httpsTrigger":{},"name":"postFeedItem","entryPoint":"postFeedItem"}
+[debug] [2020-03-10T05:10:25.490Z] [runtime-status] [2284] Running postFeedItem in mode HTTPS
+[debug] [2020-03-10T05:10:25.502Z] [runtime-status] [2284] Attempting to listen to socketPath: \\?\pipe\C:\Users\Rohan\Documents\GitHub\homecook\functions\2284
+[debug] [2020-03-10T05:10:25.507Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-10T05:10:25.523Z] [runtime-status] [2284] Ephemeral server handling GET request
+[warn] !  functions: The Realtime Database emulator is not running, so calls to Realtime Database will affect production.
+[debug] [2020-03-10T05:10:25.587Z] [runtime-status] [2284] Ephemeral server survived.
+[warn] !  functions: Error: Reference.push failed: first argument contains undefined in property 'feedItems.original'
+    at validateFirebaseData (C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\@firebase\database\dist\index.node.cjs.js:1481:15)
+    at C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\@firebase\database\dist\index.node.cjs.js:1528:13
+    at each (C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\@firebase\database\dist\index.node.cjs.js:554:13)
+    at validateFirebaseData (C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\@firebase\database\dist\index.node.cjs.js:1511:9)
+    at validateFirebaseDataArg (C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\@firebase\database\dist\index.node.cjs.js:1469:5)
+    at Reference.push (C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\@firebase\database\dist\index.node.cjs.js:13937:9)
+    at C:\Users\Rohan\Documents\GitHub\homecook\functions\index.js:11:63
+    at C:\Users\Rohan\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:622:20
+    at C:\Users\Rohan\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:597:19
+    at Generator.next (<anonymous>)
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-03-10T05:10:25.692Z] [worker-postFeedItem-272b045a-a02a-4eec-9f45-8c6226857ae5]: exited
+[debug] [2020-03-10T05:10:25.692Z] [worker-postFeedItem-272b045a-a02a-4eec-9f45-8c6226857ae5]: FINISHED
+[debug] [2020-03-10T05:10:25.693Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-10T05:12:26.067Z] File C:\Users\Rohan\Documents\GitHub\homecook\functions\index.js changed, reloading triggers
+[debug] [2020-03-10T05:12:27.070Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-10T05:12:27.070Z] [worker-~diagnostic~-e0b8b35c-9fab-4f0e-a8a2-e19b4779c4af]: FINISHING
+[debug] [2020-03-10T05:12:27.071Z] [worker-pool] Cleaned up workers for postFeedItem: 1 --> 0
+[debug] [2020-03-10T05:12:27.084Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-10T05:12:27.084Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-10T05:12:27.084Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-10T05:12:27.084Z] [worker-~diagnostic~-42597522-c673-4769-8060-44ef85cf23e3]: Assigning socketPath: \\?\pipe\C:\Users\Rohan\Documents\GitHub\homecook\functions\11844
+[debug] [2020-03-10T05:12:27.084Z] [worker-~diagnostic~-42597522-c673-4769-8060-44ef85cf23e3]: BUSY
+[debug] [2020-03-10T05:12:27.087Z] [worker-~diagnostic~-e0b8b35c-9fab-4f0e-a8a2-e19b4779c4af]: exited
+[debug] [2020-03-10T05:12:27.087Z] [worker-~diagnostic~-e0b8b35c-9fab-4f0e-a8a2-e19b4779c4af]: FINISHED
+[debug] [2020-03-10T05:12:27.583Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-10T05:12:27.583Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-10T05:12:27.583Z] Accepted request GET /homecook-dade1/us-central1/postFeedItem --> postFeedItem
+[debug] [2020-03-10T05:12:27.583Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-03-10T05:12:27.594Z] [worker-pool] addWorker(postFeedItem)
+[debug] [2020-03-10T05:12:27.594Z] [worker-pool] Adding worker with key postFeedItem, total=1
+[debug] [2020-03-10T05:12:27.595Z] [worker-pool] submitWork(triggerId=postFeedItem)
+[debug] [2020-03-10T05:12:27.595Z] [worker-postFeedItem-b391b9f0-3fb5-4c5e-80b2-8947d2ebdcbc]: Assigning socketPath: \\?\pipe\C:\Users\Rohan\Documents\GitHub\homecook\functions\11192
+[debug] [2020-03-10T05:12:27.595Z] [worker-postFeedItem-b391b9f0-3fb5-4c5e-80b2-8947d2ebdcbc]: BUSY
+[debug] [2020-03-10T05:12:28.081Z] [runtime-status] [11844] Functions runtime initialized. {"cwd":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions","node_version":"12.16.1"}
+[debug] [2020-03-10T05:12:28.085Z] [runtime-status] [11844] Disabled runtime features: undefined
+[debug] [2020-03-10T05:12:28.095Z] [runtime-status] [11844] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:12:28.100Z] [runtime-status] [11844] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:12:28.752Z] [runtime-status] [11192] Functions runtime initialized. {"cwd":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions","node_version":"12.16.1"}
+[debug] [2020-03-10T05:12:28.756Z] [runtime-status] [11192] Disabled runtime features: undefined
+[debug] [2020-03-10T05:12:28.767Z] [runtime-status] [11192] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:12:28.774Z] [runtime-status] [11192] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:12:28.951Z] [runtime-status] [11844] Found google-gax at C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-03-10T05:12:28.952Z] [runtime-status] [11844] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-03-10T05:12:29.078Z] [runtime-status] [11844] Checked functions.config() {"config":{}}
+[debug] [2020-03-10T05:12:29.081Z] [runtime-status] [11844] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:12:29.084Z] [runtime-status] [11844] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:12:29.085Z] [runtime-status] [11844] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:12:29.251Z] [runtime-status] [11844] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-03-10T05:12:29.270Z] [runtime-status] [11844] initializeApp(DEFAULT) {"databaseURL":"https://homecook-dade1.firebaseio.com","storageBucket":"homecook-dade1.appspot.com","projectId":"homecook-dade1"}
+[debug] [2020-03-10T05:12:29.398Z] [worker-~diagnostic~-42597522-c673-4769-8060-44ef85cf23e3]: IDLE
+[debug] [2020-03-10T05:12:29.465Z] [runtime-status] [11192] Found google-gax at C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-03-10T05:12:29.465Z] [runtime-status] [11192] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-03-10T05:12:29.545Z] [runtime-status] [11192] Checked functions.config() {"config":{}}
+[debug] [2020-03-10T05:12:29.546Z] [runtime-status] [11192] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:12:29.548Z] [runtime-status] [11192] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:12:29.549Z] [runtime-status] [11192] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:12:29.654Z] [runtime-status] [11192] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-03-10T05:12:29.658Z] [runtime-status] [11192] initializeApp(DEFAULT) {"databaseURL":"https://homecook-dade1.firebaseio.com","storageBucket":"homecook-dade1.appspot.com","projectId":"homecook-dade1"}
+[debug] [2020-03-10T05:12:29.746Z] [runtime-status] [11192] Trigger "postFeedItem" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "postFeedItem"
+[debug] [2020-03-10T05:12:29.748Z] [runtime-status] [11192] triggerDefinition {"httpsTrigger":{},"name":"postFeedItem","entryPoint":"postFeedItem"}
+[debug] [2020-03-10T05:12:29.748Z] [runtime-status] [11192] Running postFeedItem in mode HTTPS
+[debug] [2020-03-10T05:12:29.754Z] [runtime-status] [11192] Attempting to listen to socketPath: \\?\pipe\C:\Users\Rohan\Documents\GitHub\homecook\functions\11192
+[debug] [2020-03-10T05:12:29.760Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-10T05:12:29.774Z] [runtime-status] [11192] Ephemeral server handling GET request
+[info] >  [2020-03-10T05:12:29.828Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:30.001Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:30.419Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:31.226Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:31.546Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:31.639Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:32.366Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:34.510Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:39.321Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:45.136Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:47.878Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:12:56.787Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:13:05.942Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[info] >  [2020-03-10T05:13:22.321Z]  @firebase/database: FIREBASE WARNING: {"code":"app/invalid-credential","message":"Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"Error fetching access token: Error while making request: getaddrinfo ENOTFOUND metadata.google.internal. Error code: ENOTFOUND\"."} 
+[warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
+      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation.
+[info] >  C:\Users\Rohan\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:671
+[debug] [2020-03-10T05:13:29.853Z] [worker-postFeedItem-b391b9f0-3fb5-4c5e-80b2-8947d2ebdcbc]: exited
+[debug] [2020-03-10T05:13:29.853Z] [worker-postFeedItem-b391b9f0-3fb5-4c5e-80b2-8947d2ebdcbc]: FINISHED
+[debug] [2020-03-10T05:13:29.853Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-10T05:27:07.215Z] File C:\Users\Rohan\Documents\GitHub\homecook\functions\index.js changed, reloading triggers
+[debug] [2020-03-10T05:27:08.218Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-03-10T05:27:08.219Z] [worker-~diagnostic~-42597522-c673-4769-8060-44ef85cf23e3]: FINISHING
+[debug] [2020-03-10T05:27:08.221Z] [worker-pool] Cleaned up workers for postFeedItem: 1 --> 0
+[debug] [2020-03-10T05:27:08.245Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-10T05:27:08.246Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-03-10T05:27:08.246Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-10T05:27:08.247Z] [worker-~diagnostic~-2a446b9e-75e4-4f07-ab68-8f455b76f1b0]: Assigning socketPath: \\?\pipe\C:\Users\Rohan\Documents\GitHub\homecook\functions\6608
+[debug] [2020-03-10T05:27:08.247Z] [worker-~diagnostic~-2a446b9e-75e4-4f07-ab68-8f455b76f1b0]: BUSY
+[debug] [2020-03-10T05:27:08.253Z] [worker-~diagnostic~-42597522-c673-4769-8060-44ef85cf23e3]: exited
+[debug] [2020-03-10T05:27:08.253Z] [worker-~diagnostic~-42597522-c673-4769-8060-44ef85cf23e3]: FINISHED
+[debug] [2020-03-10T05:27:10.479Z] [runtime-status] [6608] Functions runtime initialized. {"cwd":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions","node_version":"12.16.1"}
+[debug] [2020-03-10T05:27:10.481Z] [runtime-status] [6608] Disabled runtime features: undefined
+[debug] [2020-03-10T05:27:10.488Z] [runtime-status] [6608] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:27:10.492Z] [runtime-status] [6608] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:27:11.345Z] [runtime-status] [6608] Found google-gax at C:\Users\Rohan\Documents\GitHub\homecook\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-03-10T05:27:11.345Z] [runtime-status] [6608] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-03-10T05:27:11.452Z] [runtime-status] [6608] Checked functions.config() {"config":{}}
+[debug] [2020-03-10T05:27:11.454Z] [runtime-status] [6608] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:27:11.456Z] [runtime-status] [6608] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-03-10T05:27:11.457Z] [runtime-status] [6608] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-03-10T05:27:11.646Z] [runtime-status] [6608] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[warn] !  C:\Users\Rohan\Documents\GitHub\homecook\functions\index.js:10
+    const snapshot = await admin.database().ref('/feedItems').push({data});
+                     ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at C:\Users\Rohan\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:719:33
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Rohan\AppData\Roaming\nvm\v12.16.1\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2020-03-10T05:27:11.767Z] [worker-~diagnostic~-2a446b9e-75e4-4f07-ab68-8f455b76f1b0]: exited
+[debug] [2020-03-10T05:27:11.767Z] [worker-~diagnostic~-2a446b9e-75e4-4f07-ab68-8f455b76f1b0]: FINISHED

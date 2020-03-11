@@ -21,7 +21,7 @@ import com.homecook.android.app.nearby.NearbyFragment;
 /**
  * @author rohansaigaonkar
  */
-public class FeedActivity extends LoggedInActivity implements FeedActivityContract.View {
+public class FeedActivity extends LoggedInActivity implements FeedActivityContract.View{
     private static final String TAG = FeedActivity.class.getSimpleName();
     private FeedActivityContract.Presenter presenter;
     private BottomNavigationView bottomNavigationView;

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rohansaigaonkar/Documents/Homecook/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "C:\\Users\\Rohan\\Documents\\GitHub\\homecook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/rohansaigaonkar/.gradle/caches/transforms-2/files-2.1/667d0756852400485c626e809840b256/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\Rohan\\.gradle\\caches\\transforms-2\\files-2.1\\564348b6b9f55a61abf9253e5653fa86\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
